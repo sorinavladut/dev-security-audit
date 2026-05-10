@@ -1,4 +1,5 @@
 
+import Link from 'next/link'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
@@ -23,9 +24,9 @@ export default function HomePage() {
             Audit securitate pentru aplicații web, API-uri și infrastructură cloud
           </p>
 
-          <button className="cyber-button mt-10">
+          <Link href="/contact" className="cyber-button mt-10 inline-block">
             Solicită un audit de securitate
-          </button>
+          </Link>
 
           <div className="mt-10 flex justify-center gap-8 text-sm text-gray-400 flex-wrap">
             <span>✔ OWASP aligned</span>
