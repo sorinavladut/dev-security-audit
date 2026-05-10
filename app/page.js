@@ -1,3 +1,5 @@
+'use client';
+
 export default function Home() {
   async function handleSubmit(e) {
     e.preventDefault();
@@ -24,6 +26,7 @@ export default function Home() {
         <div className="overlay">
           <h1>Dev Security Audit</h1>
           <p>Securitate digitală accesibilă pentru startup-uri și freelanceri din România</p>
+
           <a href="#contact">
             <button className="hero-btn">Solicită un audit</button>
           </a>
